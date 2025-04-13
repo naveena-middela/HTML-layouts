@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <!-- METHOD 1 :<label>
+    UserName<input type="text" placeholder="enter a name">
+    <br>
+</label>
+<label>
+    Password<input type="password" placeholder=" password">
+</label>
+</form  -->
+
+<!-- METHOD 2: -->
+ <form>
+    <div>
+    <label for="username">enter your name:</label>
+    <input type="text" id="username" placeHolder="Username">
+    </div>
+    <div>
+    <label for="password">enter your password:</label>
+    <input type="password" id="password" placeHolder="password">
+</div>
+<div>
+    <label for="age">enter your age:</label>
+    <input type="number" id="age" placeHolder="age">
+</div>
+<button>confirm</button>
+<button type="submit">submit</button>
+<button type="button">no change</button>
+<button type="reset">refresh</button>
+</form>
+
+</body>
+</html>
